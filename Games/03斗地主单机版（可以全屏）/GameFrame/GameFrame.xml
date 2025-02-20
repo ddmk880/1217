@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,728" sizebox="4,4,4,4" caption="0,0,0,26" mininfo="800,570" roundcorner="4,4">
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <Font name="宋体" size="12" bold="false" italic="false" default="true" />
+  <Font name="宋体" size="15" bold="false" italic="false" />
+  <Font name="宋体" size="14" bold="false" italic="false" />
+  <Font name="宋体" size="13" bold="false" italic="false" default="true" />
+
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='GamePlaza\scrollbar.png' source='0,0,14,14' &quot; button1hotimage=&quot;file='GamePlaza\scrollbar.png' source='28,0,42,14' &quot; button1pushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,0,28,14' &quot; button1disabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,0,56,14' &quot; button2normalimage=&quot;file='GamePlaza\scrollbar.png' source='0,14,14,28' &quot; button2hotimage=&quot;file='GamePlaza\scrollbar.png' source='28,14,42,28' &quot; button2pushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,14,28,28' &quot; button2disabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,14,56,28' &quot; thumbnormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,28,14,42' corner='5,5,5,5' &quot; thumbhotimage=&quot;file='GamePlaza\scrollbar.png' source='14,28,28,42' corner='5,5,5,5' &quot; thumbpushedimage=&quot;file='GamePlaza\scrollbar.png' source='28,28,42,42' corner='5,5,5,5' &quot; thumbdisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,28,56,42' corner='5,5,5,5' &quot; railnormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,42,14,56' corner='5,5,5,5' &quot; railhotimage=&quot;file='GamePlaza\scrollbar.png' source='14,42,28,56' corner='5,5,5,5' &quot; railpushedimage=&quot;file='GamePlaza\scrollbar.png' source='28,42,42,56' corner='5,5,5,5' &quot; raildisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,42,56,56' corner='5,5,5,5' &quot; bknormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,56,14,70' corner='5,5,5,5' &quot; bkhotimage=&quot;file='GamePlaza\scrollbar.png' source='28,56,42,70' corner='5,5,5,5' &quot; bkpushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,56,28,70' corner='5,5,5,5' &quot; bkdisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,56,56,70' corner='5,5,5,5' &quot; " />
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='GamePlaza\scrollbar.png' source='0,70,14,84' &quot; button1hotimage=&quot;file='GamePlaza\scrollbar.png' source='28,70,42,84' &quot; button1pushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,70,28,84' &quot; button1disabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,70,56,84' &quot; button2normalimage=&quot;file='GamePlaza\scrollbar.png' source='0,84,14,98' &quot; button2hotimage=&quot;file='GamePlaza\scrollbar.png' source='28,84,42,98' &quot; button2pushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,84,28,98' &quot; button2disabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,84,56,98' &quot; thumbnormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,98,14,112' corner='5,5,5,5' &quot; thumbhotimage=&quot;file='GamePlaza\scrollbar.png' source='14,98,28,112' corner='5,5,5,5' &quot; thumbpushedimage=&quot;file='GamePlaza\scrollbar.png' source='28,98,42,112' corner='5,5,5,5' &quot; thumbdisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,28,56,42' corner='5,5,5,5' &quot; railnormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,112,14,126' corner='5,5,5,5' &quot; railhotimage=&quot;file='GamePlaza\scrollbar.png' source='14,112,28,126' corner='5,5,5,5' &quot; railpushedimage=&quot;file='GamePlaza\scrollbar.png' source='28,112,42,126' corner='5,5,5,5' &quot; raildisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,112,56,126' corner='5,5,5,5' &quot; bknormalimage=&quot;file='GamePlaza\scrollbar.png' source='0,126,14,140' corner='5,5,5,5' &quot; bkhotimage=&quot;file='GamePlaza\scrollbar.png' source='28,126,42,140' corner='5,5,5,5' &quot; bkpushedimage=&quot;file='GamePlaza\scrollbar.png' source='14,126,28,140' corner='5,5,5,5' &quot; bkdisabledimage=&quot;file='GamePlaza\scrollbar.png' source='42,126,56,140' corner='5,5,5,5' &quot; "  />
+
+  <VerticalLayout padding="2,0,2,2" bkimage="file='GameFrame\bg.png' corner='4,26,4,4' mask='#FFFF00FF'">
+    <HorizontalLayout height="27">
+      <HorizontalLayout>
+        <Label name="TitleName" padding="15,3,0,0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" />
+      </HorizontalLayout>
+       <HorizontalLayout width="294" height="25" padding="0,2,0,0" >
+       <Button name="bt_gamehelp" tooltip="游戏帮助" width="72" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\gamehelp.png' source='0,0,72,22'" hotimage="file='GameFrame\gamehelp.png' source='144,0,216,22'" pushedimage="file='GameFrame\gamehelp.png' source='72,0,144,22'" />
+        <Control width="2" />
+        <Button name="bt_gameweb" tooltip="游戏网站" width="72" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\gameweb.png' source='0,0,72,22'" hotimage="file='GameFrame\gameweb.png' source='144,0,216,22'" pushedimage="file='GameFrame\gameweb.png' source='72,0,144,22'" />
+	    <Control width="2" />
+        <Button name="bt_aboutgame" tooltip="关于游戏" width="72" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\aboutgame.png' source='0,0,72,22'" hotimage="file='GameFrame\aboutgame.png' source='144,0,216,22'" pushedimage="file='GameFrame\aboutgame.png' source='72,0,144,22'" />
+        <Control width="2" />
+        <Button name="bt_exitgame" tooltip="退出游戏" width="72" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\exitgame.png' source='0,0,72,22'" hotimage="file='GameFrame\exitgame.png' source='144,0,216,22'" pushedimage="file='GameFrame\exitgame.png' source='72,0,144,22'" />
+	  </HorizontalLayout>
+	  <HorizontalLayout width="45" />
+      <HorizontalLayout width="124" height="25" padding="0,2,0,0" >
+        <Button name="BT_SCREENSHOT" tooltip="截图" width="30" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\ScreenShot_BT.png' source='0,0,30,21'" hotimage="file='GameFrame\ScreenShot_BT.png' source='60,0,90,21'" pushedimage="file='GameFrame\ScreenShot_BT.png' source='30,0,60,21'" />
+        <Control width="2" />
+        <Button name="BT_CLOSESOUND" tooltip="关闭声音" width="30" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\CloseSound_BT.png' source='0,0,30,21'" hotimage="file='GameFrame\CloseSound_BT.png' source='60,0,90,21'" pushedimage="file='GameFrame\CloseSound_BT.png' source='30,0,60,21'" />
+        <Button name="BT_OPENSOUND" tooltip="开启声音" visible="false" width="30" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\OpenSound_BT.png' source='0,0,30,21'" hotimage="file='GameFrame\OpenSound_BT.png' source='60,0,90,21'" pushedimage="file='GameFrame\OpenSound_BT.png' source='30,0,60,21'" />
+        <Control width="2" />
+        <Button name="BT_GAMESET" tooltip="游戏设置" width="60" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\GameSet_BT.png' source='0,0,60,21'" hotimage="file='GameFrame\GameSet_BT.png' source='120,0,180,21'" pushedimage="file='GameFrame\GameSet_BT.png' source='60,0,120,21'" />
+      </HorizontalLayout>
+      <HorizontalLayout width="45" />
+      <HorizontalLayout width="110" height="22">
+        <Button name="BT_MIN" tooltip="最小化窗口" width="35" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\Mini_BT.png' source='0,0,35,22'" hotimage="file='GameFrame\Mini_BT.png' source='70,0,105,22'" pushedimage="file='GameFrame\Mini_BT.png' source='35,0,70,22'" />
+        <Button name="BT_MAX" tooltip="最大化窗口" width="35" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\Max_BT.png' source='0,0,35,22'" hotimage="file='GameFrame\Max_BT.png' source='70,0,105,22'" pushedimage="file='GameFrame\Max_BT.png' source='35,0,70,22'" />
+        <Button name="BT_RESTORE" tooltip="还原窗口" visible="false" width="35" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\Restore_BT.png' source='0,0,35,22'" hotimage="file='GameFrame\Restore_BT.png' source='70,0,105,22'" pushedimage="file='GameFrame\Restore_BT.png' source='35,0,70,22'" />
+        <Button name="BT_CLOSE" tooltip="关闭窗口"   width="40" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\Close_BT.png' source='0,0,40,22'" hotimage="file='GameFrame\Close_BT.png' source='80,0,120,22'" pushedimage="file='GameFrame\Close_BT.png' source='40,0,80,22'" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout padding="2,0,2,2" >
+      <HWnd name="ClassView2DWnd" padding="0,0,0,0" />
+      <VerticalLayout name="Game_Frame" padding="0,0,0,0" width="231" bkcolor="#FF053242" bkimage="file='GameFrame\FrameControl\FrameRightBack.png' corner ='5,45,5,30'" >
+        <HorizontalLayout name="UserInfo" height="140" >
+          <VerticalLayout>
+            <HorizontalLayout name="UserLabel" height="44" bkimage="file='GameFrame\FrameControl\UserLabel.png' " padding="3,0,3,0" />
+            <HorizontalLayout bkimage="file='GameFrame\FrameControl\UserInfoBk.png' corner ='5,5,5,5'" padding="6,4,0,3" >
+              <Button name="UserFace" float="true" pos="10,9,0,0" width="70" height="70" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+              <Label text="昵称:" float="true" pos="90,10,0,0" width="35" height="17" textcolor="#FF00D0E7" disabledtextcolor="#FFA7A6AA" />
+              <Label text="称号:" float="true" pos="90,28,0,0" width="35" height="17" textcolor="#FF00D0E7" disabledtextcolor="#FFA7A6AA" />
+              <Label name = "GoldOrScore" text="金币:" float="true" pos="90,46,0,0" width="35" height="17" textcolor="#FF00D0E7" disabledtextcolor="#FFA7A6AA" />
+              <Label text=" ID:" float="true" pos="95,64,0,0" width="35" height="17" textcolor="#FF00D0E7" disabledtextcolor="#FFA7A6AA" />
+              <Label name="NickNameText" float="true" pos="124,10,0,0" width="115" height="17" textpadding="2,2,2,0" textcolor="#FFb3b5b2" disabledtextcolor="#FFA7A6AA" align="left" endellipsis="true" />
+              <Label name="LVText" float="true" pos="124,28,0,0" width="115" height="17" textpadding="2,2,2,0" textcolor="#FFb3b5b2" disabledtextcolor="#FFA7A6AA" align="left" />
+              <Label name="GoldText" float="true" pos="124,46,0,0" width="115" height="17" textpadding="2,2,2,0" textcolor="#FFb3b5b2" align="left" />
+              <Label name="GameIDText" float="true" pos="124,64,0,0" width="115" height="17" textpadding="2,2,2,0" textcolor="#FFb3b5b2" align="left" />
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="MatchName" visible = "false" height="59" bkimage="GameFrame\FrameControl\MatchName.png" padding="0,0,0,0" >
+          <Text name="MatchNameInfo" float="true" pos="11,9,0,0" width="217" height="33" textpadding="2,0,2,0" align="center" endellipsis="true" font = "2" textcolor="#FF00E4F1" />
+          <Text name="PreMatchNameInfo" float="true" pos="57,34,0,0" width="100" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "3" textcolor="#FF00E4F1" />
+          <Button name="MatchDetail" text = "赛制详情》" float="true" pos="161,30,0,0" width="70" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "1" textcolor="#FFb8b8b8" hottextcolor="#FFFFFF00" />
+        </HorizontalLayout>
+        <HorizontalLayout name="MatchTime" visible = "false" height="125" bkimage="GameFrame\FrameControl\MatchTime.png" padding="0,0,0,0" >
+          <VerticalLayout>
+            <HorizontalLayout height = "10" />
+            <HorizontalLayout height = "18" >
+              <VerticalLayout width = "108"/>
+              <VerticalLayout>
+                <DrawText name="TimeNumber" allimage="GameFrame\FrameControl\TimeNumber.png" frame = "11" numberstring = "0123456789:" picturewidth="154" pictureheight="18"  />
+              </VerticalLayout>
+            </HorizontalLayout>
+            <HorizontalLayout>
+              <VerticalLayout>
+                <HorizontalLayout name = "TwoLandDraw" visible = "false" height = "90" >
+                  <VerticalLayout>
+                    <HorizontalLayout height = "38" />
+                    <HorizontalLayout height = "20" >
+                      <VerticalLayout width = "13" />
+                      <VerticalLayout width = "70" >
+                        <DrawText name="DrawNumberTwo" allimage="GameFrame\FrameControl\DrawNumber.png" frame = "11" numberstring = "0123456789/" picturewidth="198" pictureheight="20"  />
+                      </VerticalLayout>
+                      <VerticalLayout width = "38" height = "16"  padding="0,2,0,2" bkimage="file='GameFrame\FrameControl\DrawNumberBk.png'" />
+                      <VerticalLayout width = "8" />
+                      <VerticalLayout width = "45" >
+                        <DrawText name="WinScore" allimage="GameFrame\FrameControl\DrawNumber.png" frame = "11" numberstring = "0123456789/" picturewidth="198" pictureheight="20"  />
+                      </VerticalLayout>
+                      <VerticalLayout width = "47" height = "16"  padding="0,2,0,2" bkimage="file='GameFrame\FrameControl\WinScoreBk.png'" />
+                    </HorizontalLayout>
+                  </VerticalLayout>
+                </HorizontalLayout>
+                <HorizontalLayout name = "BaseScoreBase" height = "90" >
+                  <VerticalLayout>
+                    <HorizontalLayout height = "30" />
+                    <HorizontalLayout height = "18" >
+                      <VerticalLayout width = "34" />
+                      <VerticalLayout width = "74" name = "BaseScoreBk" bkimage="file='GameFrame\FrameControl\CurrentBaseScore.png'"/>
+                      <VerticalLayout width = "14" />
+                      <VerticalLayout>
+                        <DrawText name="MatchBaseScore" allimage="GameFrame\FrameControl\BaseScore.png" frame = "10" numberstring = "0123456789" picturewidth="220" pictureheight="24"  />
+                      </VerticalLayout>
+                    </HorizontalLayout>
+                    <Text name="Low" text = "低于" float="true" pos="20,64,0,0" width="50" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "3" textcolor="#FF00E4F1" />
+                    <Text name="LowScore" float="true" pos="50,64,0,0" width="36" height="20" textpadding="2,0,2,0" align="center" endellipsis="true" font = "3" textcolor="#fefb00" />
+                    <Text name="Out" text = "分出局" float="true" pos="82,64,0,0" width="100" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "3" textcolor="#FF00E4F1" />
+                  </VerticalLayout>
+                </HorizontalLayout>
+                <HorizontalLayout name = "TurnDrawBase">
+                  <VerticalLayout>
+                    <HorizontalLayout height = "14" />
+                    <HorizontalLayout height = "18" >
+                      <Text name="TotleTurn" text = "共    轮，每轮    局" float="true" textpadding="0,0,0,0" pos="8,0,0,0" width="230" height="24" align="wrap" endellipsis="true" font = "1" textcolor="#FFC4C4C4" />
+                      <Text name="Turn" float="true"   pos="29,-2,0,0" width="230" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "4" textcolor="#FFFEFB00" />
+                      <Text name="Draw" float="true"   pos="100,-2,0,0" width="230" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "4" textcolor="#FFFEFB00" />
+                    </HorizontalLayout>
+                    <HorizontalLayout height = "8" />
+                    <HorizontalLayout height = "24"  >
+                      <VerticalLayout width = "44" />
+                      <VerticalLayout width = "144" name = "TurnDrawBk" bkimage = "GameFrame\FrameControl\TurnDraw.png" >
+                        <HorizontalLayout>
+                          <VerticalLayout width = "22" />
+                          <VerticalLayout width = "22" >
+                            <DrawText name="TurnNumber" allimage="GameFrame\FrameControl\BaseScore.png" frame = "10"  numberstring = "0123456789" picturewidth="220" pictureheight="24" />
+                          </VerticalLayout>
+                          <VerticalLayout width = "60" />
+                          <VerticalLayout width = "22" >
+                            <DrawText name="DrawNumber" allimage="GameFrame\FrameControl\BaseScore.png" frame = "10"  numberstring = "0123456789" picturewidth="220" pictureheight="24" />
+                          </VerticalLayout>
+                        </HorizontalLayout>
+                      </VerticalLayout>
+                    </HorizontalLayout>
+                    <HorizontalLayout height = "10" />
+                    <HorizontalLayout height = "18" >
+                      <Text name="Currentbase" text = "当前基数：" float="true"  pos="8,0,0,0" width="230" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "1" textcolor="#FFC4C4C4" />
+                      <Text name="base" float="true"  pos="65,0,0,0" width="230" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "4" textcolor="#FFFEFB00" />
+                    </HorizontalLayout>
+                  </VerticalLayout>
+                </HorizontalLayout>
+              </VerticalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="Rank" visible = "false" height="100" bkimage="GameFrame\FrameControl\Rank.png" padding="0,0,0,0">
+          <VerticalLayout>
+            <HorizontalLayout height = "35" >
+              <Button name="PrizeDetail" text = "颁奖方案》" float="true" pos="160,5,0,0" width="70" height="24" textpadding="0,0,0,0" align="wrap" endellipsis="true" font = "1" textcolor="#FFb8b8b8" hottextcolor="#FFFFFF00" />
+            </HorizontalLayout>
+            <HorizontalLayout height = "28" >
+              <VerticalLayout width = "90">
+                <DrawText name="MatchRankNumber" allimage="GameFrame\FrameControl\RankNumber.png" frame = "10" numberstring = "0123456789" picturewidth ="200" pictureheight = "26" align = "right" />
+              </VerticalLayout>
+              <VerticalLayout width = "37" />
+              <VerticalLayout width = "100">
+                <HorizontalLayout height = "8" />
+                <DrawText name="PlayerNumber" allimage="GameFrame\FrameControl\PlayerNumber.png" frame = "10" numberstring = "0123456789" picturewidth="160" pictureheight="18" />
+              </VerticalLayout>
+            </HorizontalLayout>
+            <HorizontalLayout height = "40" >
+              <Text name="Rules" float="true" pos="12,15,0,0" width="230" height="24" textpadding="2,0,2,0" align="wrap" endellipsis="true" font = "1" textcolor="#FF978c66" />
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout height="100" name = "TwoLandScore" visible = "false" bkimage="file='GameFrame\FrameControl\MatchRankBk.png' corner='4,4,4,4'" padding="0,0,0,0" >
+          <VerticalLayout width = "5" />
+          <VerticalLayout bkimage = "GameFrame\FrameControl\UserInfoBk.png" >
+            <HorizontalLayout height = "42" />
+            <HorizontalLayout height = "20" >
+              <VerticalLayout width = "8" />
+              <VerticalLayout width = "63"  height = "16" padding="0,2,0,2" bkimage="file='GameFrame\FrameControl\MeScore.png'" />
+              <VerticalLayout width = "5" />
+              <VerticalLayout width = "40" >
+                <DrawText name="MeScore" allimage="GameFrame\FrameControl\DrawNumber.png" frame = "11" numberstring = "0123456789/" picturewidth="198" pictureheight="20"  />
+              </VerticalLayout>
+              <VerticalLayout width = "63" height = "16" padding="0,2,0,2" bkimage="file='GameFrame\FrameControl\OtherScore.png'" />
+              <VerticalLayout width = "5" />
+              <VerticalLayout width = "45" >
+                <DrawText name="OtherScore"  allimage="GameFrame\FrameControl\DrawNumber.png" frame = "11" numberstring = "0123456789/" picturewidth="198" pictureheight="20"  />
+              </VerticalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        <List name="GameUserList" padding="2,0,2,0" itemtextcolor="#FFb6b6b4" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" itemshowhtml="false" itemendellipsis="true" enabled="true" vscrollbar="true" autovscroll="true" vscrollbarsize="12"  hscrollbar="true" hscrollbarsize="12" menu="true" >
+          <ListHeader height="28" padding="2,0,2,0" bkimage="file='GameFrame\FrameControl\ListHeadBack.png' corner ='5,5,5,5'" menu="false">
+          </ListHeader>
+        </List>
+        <RichEdit name="GameRichEdit" padding="3,0,3,0" multiline="true" vscrollbar="true" autovscroll="true" autovscroll="true" enabled="true" vscrollbarsize="12" rich="true" readonly="true" />
+        <HorizontalLayout name="NormalButton" height = "27" padding="0,0,0,0" >
+          <RichEdit name="GameChatInputEdit" pos="3,1,0,0" float="true" width="170" height="23" bordersize="1" bordercolor="#FF206077" bkcolor="#00000000" focusbordercolor="#00000000" textpadding="4,7,4,3" inset="3,4,3,3" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" rich="true" enabled="true" wanttab="false" readonly="false" wantreturn="false" multiline="false" />
+          <Button name="RoomSendMSGButton" pos="174,0,0,0" tooltip="发送聊天信息" float="true" width="54" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='GameFrame\FrameControl\SendMessageButton.png' source='0,0,54,25'" hotimage="file='GameFrame\FrameControl\SendMessageButton.png' source='108,0,162,25'" pushedimage="file='GameFrame\FrameControl\SendMessageButton.png' source='54,0,108,25'" />
+        </HorizontalLayout>
+        <HorizontalLayout name="MatchButton" visible = "false" height = "27" padding="0,4,0,0" >
+          <VerticalLayout width = "3" />
+          <Button name="MatchRank"  width="74" height="25" normalimage="file='GameFrame\FrameControl\MatchRank.png' source='0,0,74,25'" hotimage="file='GameFrame\FrameControl\MatchRank.png' source='148,0,222,25'" pushedimage="file='GameFrame\FrameControl\MatchRank.png' source='74,0,148,25'" />
+          <VerticalLayout width = "1" />
+          <Button name="MatchFlue" width="74" height="25" normalimage="file='GameFrame\FrameControl\MatchFlue.png' source='0,0,74,25'" hotimage="file='GameFrame\FrameControl\MatchFlue.png' source='148,0,222,25'" pushedimage="file='GameFrame\FrameControl\MatchFlue.png' source='74,0,148,25'" />
+          <VerticalLayout width = "1" />
+          <Button name="MatchMemory" width="74" height="25" normalimage="file='GameFrame\FrameControl\MatchMemory.png' source='0,0,74,25'" hotimage="file='GameFrame\FrameControl\MatchMemory.png' source='148,0,222,25'" pushedimage="file='GameFrame\FrameControl\MatchMemory.png' source='74,0,148,25'" />
+        </HorizontalLayout>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

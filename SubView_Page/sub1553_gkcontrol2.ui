@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sub1553_gkcontrol2</class>
+ <widget class="QWidget" name="sub1553_gkcontrol2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1136</width>
+    <height>735</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1116</width>
+        <height>715</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>GroupBox1</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="title">
+             <string>综合管控单元6Gb三维运维0x43</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <layout class="QFormLayout" name="formLayout">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_6">
+                 <property name="text">
+                  <string>控制</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QComboBox" name="comboBox_0x43_1">
+                 <item>
+                  <property name="text">
+                   <string>停止</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>开始</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>起始地址(单位128KB)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_0x43_2">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>大小(单位128KB)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="lineEdit_0x43_3">
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>对象标识</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="comboBox_0x43_0">
+                 <item>
+                  <property name="text">
+                   <string>0x00：全选</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>0x01：管控软件</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>0x02：6Gb</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>0x03：综合处理V7</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>0x04：管控Boot</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_0x43">
+               <property name="text">
+                <string>综合管控单元6Gb三维运维</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_27">
+            <property name="title">
+             <string>更新软件0x47</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_33">
+             <item>
+              <layout class="QFormLayout" name="formLayout_21">
+               <item row="0" column="0">
+                <widget class="QLabel" name="Label_23">
+                 <property name="text">
+                  <string>单机标志</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="Combox_47_1">
+                 <item>
+                  <property name="text">
+                   <string>0：管控机</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1：高算力平台1</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2：高算力平台2</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QComboBox" name="comboBox_0x47_choose"/>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="Label_44">
+                 <property name="text">
+                  <string>软件代号0x</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_47_2">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="Label_24">
+                 <property name="text">
+                  <string>软件大小(kB)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="lineEdit_47_3">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label">
+                 <property name="text">
+                  <string>FLASH编号</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QComboBox" name="comboBox_47_4">
+                 <property name="currentIndex">
+                  <number>1</number>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>1：/</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2：P2020更新区A</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3：P2020更新区B</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>4：P2020更新区C</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>5：管控V7更新区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6：管控V7基础区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>7：/</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>8：/</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9：融合DSP基础区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10：融合DSP更新区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>11：通侦定位DSP基础区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>12：通侦定位DSP更新区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>13：雷侦定位DSP基础区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>14：雷侦定位DSP更新区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>15：AI基础区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>16：AI更新区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>17：6Gb三模</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>18：6Gb第一片</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>19：6Gb第二片</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>20：6Gb第三片</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>21：融合DSP的引导区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>22：通侦定位DSP的引导区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>23：雷侦定位DSP的引导区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>24：AI的引导区</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>25：MRAM FLASH分区表</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>26：重点目标库</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>27：重点通信信号</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>28：雷达重点侦察库</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>29：p2020三模</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>30：处理V7三模 </string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>31：综合管控单元固态SSD</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>数据源</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QComboBox" name="comboBox_47_5">
+                 <item>
+                  <property name="text">
+                   <string>1：53B/千兆网上注数据源</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2：6Gb数据源-0F01</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3：6Gb数据源-0F02</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>4：6Gb数据源-0F04</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>5：6Gb数据源-0F05</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6：6Gb数据源-0F06</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>7：6Gb数据源-0D09</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>8：6Gb数据源-5F01</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9：6Gb数据源-5D02</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10：6Gb数据源-1F01</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>11：6Gb数据源-1D10</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>12：类5G/ZC上注数据源</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>FLASH起始地址(4字节0x)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLineEdit" name="lineEdit_47_6">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>算力通道选择</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QComboBox" name="comboBox_47_7">
+                 <property name="currentIndex">
+                  <number>1</number>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>1：CAN</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2：Rapidio</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pB_47_updata">
+               <property name="text">
+                <string>更新软件</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_30">
+            <property name="title">
+             <string>更新配置0x4A</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_36">
+             <item>
+              <layout class="QFormLayout" name="formLayout_23">
+               <item row="0" column="0">
+                <widget class="QLabel" name="Label_26">
+                 <property name="text">
+                  <string>单机标志</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="Combox_4A_1">
+                 <item>
+                  <property name="text">
+                   <string>管控机</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>高算力平台1</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>高算力平台2</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="Label_46">
+                 <property name="text">
+                  <string>配置代号0x</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit_4A_2">
+                 <property name="text">
+                  <string>0F94</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="Label_27">
+                 <property name="text">
+                  <string>起始地址(4字节0x)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_4A_3">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>配置大小</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="lineEdit_4A_4">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pB_4A">
+               <property name="text">
+                <string>更新配置</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>GroupBox2</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QGroupBox" name="groupBox_25">
+            <property name="title">
+             <string>开始软件包上载0x4B</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_31">
+             <item>
+              <layout class="QFormLayout" name="formLayout_20">
+               <item row="0" column="0">
+                <widget class="QLabel" name="Label_21">
+                 <property name="text">
+                  <string>上载方式</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="Combox_4B_1">
+                 <item>
+                  <property name="text">
+                   <string>1553B</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>类5G</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>侦察通道</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>千兆网通道</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="Label_43">
+                 <property name="text">
+                  <string>上载大小(MB)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit_4B_2">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="Label_22">
+                 <property name="text">
+                  <string>段号1~50</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_4B_3">
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pB_4B_start">
+               <property name="text">
+                <string>开始软件包上载</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_26">
+            <property name="title">
+             <string>结束软件包上载0x4C</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_32">
+             <item>
+              <widget class="QPushButton" name="pB_4C_end">
+               <property name="text">
+                <string>结束软件包上载</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

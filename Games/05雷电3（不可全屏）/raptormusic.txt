@@ -1,0 +1,12 @@
+Raptor Music addon
+
+filename - addon.glb
+
+if you need to disable this .. delete the addon.glb file
+or rename it to addon.gla to get the normal DemonStar music
+back.
+
+This will only work with the full version of DemonStar
+
+Mountain King Studios Inc.
+www.mking.com

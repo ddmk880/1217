@@ -1,0 +1,8 @@
+/* 2024-11-28,yyh*/
+
+/* We provide a min-width and min-height for push buttons
+   so that they look elegant regardless of the width of the text. */
+QPushButton {
+    border-radius:2px;
+
+}

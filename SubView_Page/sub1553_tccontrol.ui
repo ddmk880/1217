@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sub1553_tccontrol</class>
+ <widget class="QWidget" name="sub1553_tccontrol">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1324</width>
+    <height>885</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>GroupBox1</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_14">
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>发送类型选择</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QComboBox" name="cb_cardChooe">
+             <item>
+              <property name="text">
+               <string>1553板卡发送</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Can板卡发送</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox_gslChoose">
+             <item>
+              <property name="text">
+               <string>1553高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1553高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string>透传:开始软件上注C82</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <layout class="QFormLayout" name="formLayout">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>上注方式</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="comboBox_upmaind">
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>CAN</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>RapidIO</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>FLASH编号</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="comboBox_upmark">
+               <item>
+                <property name="text">
+                 <string>1：NOR FLASH1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2：NOR FLASH2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3：NAND FLASH</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>软件代号：0x</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_sorftnum">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>软件大小kb</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="lineEdit_sorftsum">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>FLASH起始地址：0x</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="lineEdit_flashsaddr">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_startup">
+             <property name="text">
+              <string>开始软件上注</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>《==</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="title">
+            <string>名称对应：软件代号,起始地址</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <layout class="QFormLayout" name="formLayout_4">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>收发处理模块</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="comboBox_sfclmk">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F02）采集与信道化接收软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F03）波束合成接收软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F04）波束合成发射软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F41）调频源软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F42）数据形成软件（更新区）</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>电子侦察模块</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QComboBox" name="comboBox_dzzcmk">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F01）宽带信号检测和存储软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F02）LINK16测向软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F03）塔康侦测软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F04）塔康全频段侦察软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F05）敌我侦测软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F06）铱星信号侦测软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F07）海事信号侦测软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F08）星链信号侦察软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F09）雷达信号预处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1D10）通信信号处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1D11）雷达信号主处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F01）宽带信号检测和存储软件（基础区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1F12）高频段雷达信号预处理软件（基础区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x1D10）通信信号处理软件（基础区）</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>电子干扰</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QComboBox" name="comboBox_dzgr">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F01）通信干扰处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F02）导航与星链干扰处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2D03）通信与导航干扰策略与控制软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F04）雷达侦察干扰处理软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2D05）雷达干扰策略与控制软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F01）通信干扰处理软件（基础区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F02）导航与星链干扰处理软件（基础区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2D03）通信与导航干扰策略与控制软件（基础区）</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_9">
+                <property name="text">
+                 <string>SAR成像</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QComboBox" name="comboBox_SARcx">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F01）2m/3m模式成像预处理FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F02）2m/3m模式成像1FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F03）2m/3m模式成像2FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F04）10m模式成像预处理FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F05）10m模式成像1FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F06）10m模式成像2FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F07）2m/3m/10m模式一体化成像3FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F08）2m/3m/10m模式一体化成像4FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F09）2m/3m条带模式目标检测FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F10）2m/3m条带模式动目标精聚焦FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F11）2m/3m条带模式目标识别分类FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F12）广域搜索模式探测成像1FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F13）广域搜索模式探测成像2FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F14）广域搜索模式探测成像3FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F15）广域搜索模式目标检测FPGA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x3F16）广域搜索模式目标军民分类FPGA</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_10">
+                <property name="text">
+                 <string>备用导航</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QComboBox" name="comboBox_bydx">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x4D01）星历拟合与控制软件</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x4F02）导航信号生成软件</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>类5G通信</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QComboBox" name="comboBox_l5gtx">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x5F01）类5G通信软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x5D02）类5G协议控制软件（更新区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x5F01）类5G通信软件（基础区）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x5D02）类5G协议控制软件（基础区）</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>JIDS链</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QComboBox" name="comboBox_JIDSl">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x6F01）数据链信号处理软件</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x6D02）数据链信息处理软件</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>产生式欺骗</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QComboBox" name="comboBox_csqp">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F06）产生式欺骗干扰FPGA1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2F07）产生式欺骗干扰FPGA2</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x2D08）产生式欺骗干扰DSP1</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="8" column="0">
+               <widget class="QLabel" name="label_14">
+                <property name="text">
+                 <string>数据参数</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="1">
+               <widget class="QComboBox" name="comboBox_sjcs">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F81）幅度表</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F82）舰船检测网络参数</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F83）舰船识别网络参数</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F84）探测模式舰船分类网络参数</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F85）海陆分割数据库</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F86）零值补偿参数、功率参数</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F87）通信参数</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F88）雷达重点侦察库</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F89）高算力平台FLASH分区表（存三份）</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="9" column="0">
+               <widget class="QLabel" name="label_15">
+                <property name="text">
+                 <string>NOR FLASH</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="1">
+               <widget class="QComboBox" name="comboBox_norflash">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F01）接口控制软件1（收发处理模块）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F05）接口控制软件1（数据处理模块）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F06）数据传输软件更新区</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F06）数据传输软件基础区1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0D09）综合调度软件1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0D08）CAN解析及重构调度软件更新区</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F01）接口控制软件2（收发处理模块）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F05）接口控制软件2（数据处理模块）</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F06）数据传输软件基础区2</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0F06）数据传输软件基础区3</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>（0x0D09）综合调度软件2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="title">
+             <string>FLASH擦除C83</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <layout class="QFormLayout" name="formLayout_2">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_17">
+                 <property name="text">
+                  <string>起始块地址(0x)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="lineEdit_ccqskdz">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_flashcc">
+               <property name="text">
+                <string>FLASH擦除</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_7">
+            <property name="title">
+             <string>FLASH擦除状态查询C84</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="text">
+                <string>FLASH擦除状态查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_8">
+            <property name="title">
+             <string>软件上注C85</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <layout class="QFormLayout" name="formLayout_3">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_18">
+                 <property name="text">
+                  <string>首地址(0x)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="lineEdit_firstAddr">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_43">
+                 <property name="text">
+                  <string>序号</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit_Number">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_sorftUp">
+               <property name="text">
+                <string>软件上注</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="QGroupBox" name="groupBox_12">
+            <property name="title">
+             <string>软件上注完成C86</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <item>
+              <layout class="QFormLayout" name="formLayout_7">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_47">
+                 <property name="text">
+                  <string>包数</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="lineEdit_c86packnum">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_C86upFinash">
+               <property name="text">
+                <string>软件上注完成</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_9">
+            <property name="title">
+             <string>软件写入状态查询C87</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="QPushButton" name="pushButton_writeStatus">
+               <property name="text">
+                <string>软件写入状态查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_14">
+            <property name="title">
+             <string>接口控制板FPGAV7维护C88</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_16">
+             <item>
+              <widget class="QPushButton" name="pushButton_C88">
+               <property name="text">
+                <string>接口控制板FPGAV7维护</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_15">
+            <property name="title">
+             <string>CAN解析及重构软件切换更新区C89</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_18">
+             <item>
+              <widget class="QPushButton" name="pushButton_C89">
+               <property name="text">
+                <string>CAN解析及重构软件切换更新区</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QGroupBox" name="groupBox_10">
+            <property name="title">
+             <string>软件下传C8B</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <layout class="QFormLayout" name="formLayout_5">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_44">
+                 <property name="text">
+                  <string>Flash编号</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_45">
+                 <property name="text">
+                  <string>Flash地址(0x)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit_flashaddr">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_46">
+                 <property name="text">
+                  <string>软件大小</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_Software_size">
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_48">
+                 <property name="text">
+                  <string>数传通道</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QComboBox" name="comboBox_C8B_4">
+                 <item>
+                  <property name="text">
+                   <string>1：存管控机固存</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2：存平台固存</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="comboBox_C8B_1">
+                 <item>
+                  <property name="text">
+                   <string>1:NOR FLASH1</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2:NOR FLASH2</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3:NAND FLASH</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_sorftDown">
+               <property name="text">
+                <string>软件下传</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_13">
+            <property name="title">
+             <string>DSP6678加载测试A0</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_15">
+             <item>
+              <widget class="QPushButton" name="pushButton_dsp6678_A0">
+               <property name="text">
+                <string>DSP6678加载测试</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_11">
+     <property name="title">
+      <string>GroupBox2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_10">
+      <item>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="title">
+         <string>软件重构C8A</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="pushButton_ykyx">
+             <property name="text">
+              <string>一键卸载</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_yjcg">
+             <property name="text">
+              <string>一键重构</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_yjbcg">
+             <property name="text">
+              <string>一键不重构</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QFormLayout" name="formLayout_6">
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>收发模块V7-1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh1">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>软件代号1(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh1">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>操作方式1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_czfs1">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>收发模块V7-2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh2">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>软件代号2(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh2">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>操作方式2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="comboBox_czfs2">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>处理模块A-V7-1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh3">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_26">
+             <property name="text">
+              <string>软件代号3(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh3">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_27">
+             <property name="text">
+              <string>操作方式3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="comboBox_czfs3">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="label_28">
+             <property name="text">
+              <string>处理模块A-V7-2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh4">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label_29">
+             <property name="text">
+              <string>软件代号4(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh4">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="label_30">
+             <property name="text">
+              <string>操作方式4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QComboBox" name="comboBox_czfs4">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QLabel" name="label_31">
+             <property name="text">
+              <string>处理模块A-DSP</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh5">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="0">
+            <widget class="QLabel" name="label_32">
+             <property name="text">
+              <string>软件代号5(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh5">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="0">
+            <widget class="QLabel" name="label_33">
+             <property name="text">
+              <string>操作方式5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="1">
+            <widget class="QComboBox" name="comboBox_czfs5">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="16" column="0">
+            <widget class="QLabel" name="label_34">
+             <property name="text">
+              <string>处理模块B-V7-1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh6">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="0">
+            <widget class="QLabel" name="label_35">
+             <property name="text">
+              <string>软件代号6(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh6">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="0">
+            <widget class="QLabel" name="label_36">
+             <property name="text">
+              <string>操作方式6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="1">
+            <widget class="QComboBox" name="comboBox_czfs6">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="19" column="0">
+            <widget class="QLabel" name="label_37">
+             <property name="text">
+              <string>处理模块B-V7-2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh7">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="0">
+            <widget class="QLabel" name="label_38">
+             <property name="text">
+              <string>软件代号7(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh7">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="0">
+            <widget class="QLabel" name="label_39">
+             <property name="text">
+              <string>操作方式7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="1">
+            <widget class="QComboBox" name="comboBox_czfs7">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="22" column="0">
+            <widget class="QLabel" name="label_40">
+             <property name="text">
+              <string>处理模块B-DSP</string>
+             </property>
+            </widget>
+           </item>
+           <item row="22" column="1">
+            <widget class="QLineEdit" name="lineEdit_xpdh8">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="0">
+            <widget class="QLabel" name="label_41">
+             <property name="text">
+              <string>软件代号8(0x)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="1">
+            <widget class="QLineEdit" name="lineEdit_rjdh8">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="0">
+            <widget class="QLabel" name="label_42">
+             <property name="text">
+              <string>操作方式8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="1">
+            <widget class="QComboBox" name="comboBox_czfs8">
+             <item>
+              <property name="text">
+               <string>0x01：卸载</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x02：重构</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>0x03：不重构</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="25" column="0" colspan="2">
+            <widget class="QPushButton" name="pushButton_rjcg">
+             <property name="text">
+              <string>开始软件重构</string>
+             </property>
+             <property name="autoRepeatInterval">
+              <number>100</number>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <widget class="QComboBox" name="comboBox_high">
+             <item>
+              <property name="text">
+               <string>默认：无</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,14 @@
+planetz.map 		- made by Scott Host
+hellrasier.map 		- made by James Ries
+assault.map 		- made by Mark Currin
+basemap.map 		- made by Kevin McDade
+mission impossible.map 	- made by Alex.
+bigtwist.map 		- made by Alex.
+
+
+These level are for use with the full version of
+DemonStar only.
+
+
+Mountain King Studios Inc.
+www.mking.com

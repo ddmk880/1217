@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="592,420" caption="0,0,0,420" sizebox="0,0,0,0" roundcorner="14,14">
+  <Font name="黑体" size="18" bold="true" italic="false" default="true" />
+  <Container bkimage="DJLand\duilib\bk.png">
+    <VerticalLayout >
+      <VerticalLayout height="26" >
+        <Button name="close_bt" tooltip="关闭窗口" float="true" pos="540,2,0,0" width="47" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='DJLand\duilib\close.png' source='0,0,47,24'" hotimage="file='DJLand\duilib\close.png' source='0,48,47,72'" pushedimage="file='DJLand\duilib\close.png' source='0,24,47,48'" />
+      </VerticalLayout>
+      <VerticalLayout height="97" padding="3,0,3,0">
+        <ActiveX name="web1" bkcolor="#FF1E1E1E" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false" />
+      </VerticalLayout>
+      <VerticalLayout>
+        <DrawText name="text0" text="" float="true" pos="136,5,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+		 <DrawText name="text1" text="" float="true" pos="136,35,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+		 <DrawText name="text2" text="" float="true" pos="136,65,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+		 <DrawText name="text3" text="" float="true" pos="136,95,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+		 <DrawText name="text4" text="" float="true" pos="136,125,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+		 <DrawText name="text5" text="" float="true" pos="136,155,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+
+        <Label name="NickName0" text="" float="true" pos="250,45,0,0" width="80" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"  align="center"/>
+        <DrawText name="Land0" text="" float="true" pos="350,45,0,0" width="23" height="21" allimage="DJLand\duilib\land_farmer.png" frame = "2"  numberstring = "10" picturewidth="46" pictureheight="21" />
+        <DrawText name="WinLost0" text="" float="true" pos="410,45,0,0" width="21" height="21" allimage="DJLand\duilib\win_lose.png" frame = "2"  numberstring = "10" picturewidth="42" pictureheight="21" />
+        <DrawText name="Score0" text="" float="true" pos="500,45,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+
+        <Label name="NickName1" text="" float="true" pos="250,93,0,0" width="80" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"  align="center"/>
+        <DrawText name="Land1" text="" float="true" pos="350,93,0,0" width="23" height="21" allimage="DJLand\duilib\land_farmer.png" frame = "2"  numberstring = "10" picturewidth="46" pictureheight="21" />
+        <DrawText name="WinLost1" text="" float="true" pos="410,93,0,0" width="21" height="21" allimage="DJLand\duilib\win_lose.png" frame = "2"  numberstring = "10" picturewidth="42" pictureheight="21" />
+        <DrawText name="Score1" text="" float="true" pos="500,93,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+
+        <Label name="NickName2" text="" float="true" pos="250,140,0,0" width="80" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"  align="center"/>
+        <DrawText name="Land2" text="" float="true" pos="350,140,0,0" width="23" height="21" allimage="DJLand\duilib\land_farmer.png" frame = "2"  numberstring = "10" picturewidth="46" pictureheight="21" />
+        <DrawText name="WinLost2" text="" float="true" pos="410,140,0,0" width="21" height="21" allimage="DJLand\duilib\win_lose.png" frame = "2"  numberstring = "10" picturewidth="42" pictureheight="21" />
+        <DrawText name="Score2" text="" float="true" pos="500,140,0,0" width="84" height="17" allimage="DJLand\duilib\number.png" frame = "12"  numberstring = "0123456789+-" picturewidth="168" pictureheight="17" />
+      </VerticalLayout>
+      <VerticalLayout height="97" padding="3,0,3,0">
+        <ActiveX name="web2" bkcolor="#FF1E1E1E" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false" />
+      </VerticalLayout>
+      <VerticalLayout height="11" />
+    </VerticalLayout>
+  </Container>
+</Window>

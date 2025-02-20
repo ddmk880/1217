@@ -1,0 +1,196 @@
+/*2020.2.19-updated by Zheng Hongfei*/
+
+QWidget
+{ background-color: beige;selection-background-color:#3daee9; selection-color: #eff0f1; background-clip: border; border-image: none; outline: 0; }
+
+QWidget:item:hover
+{ background-color: #3daee9; color: #eff0f1; }
+
+QWidget:item:selected
+{ background-color: #3daee9; }
+
+QToolButton:hover, QToolButton::menu-button:hover { background-color: #3daee9; }
+
+/* Nice Windows-XP-style password character. */
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}
+
+/* We provide a min-width and min-height for push buttons
+   so that they look elegant regardless of the width of the text. */
+QPushButton {
+    background-color: palegoldenrod;
+    border-width: 1px;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 2;
+    padding: 1px;
+
+}
+
+QComboBox:hover,
+QPushButton:hover,
+QAbstractSpinBox:hover,
+QLineEdit:hover,
+QTextEdit:hover,
+QPlainTextEdit:hover,
+QAbstractView:hover,
+QTreeView:hover {
+    border: 1px solid #3daee9;
+}
+
+QPushButton:hover {
+   background-color: #3daee9;
+}
+
+/* Increase the padding, so the text is shifted when the button is
+   pressed. */
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #d0d67c;
+}
+/*
+QLabel, QAbstractButton {
+    font: bold;
+}*/
+
+/* Mark mandatory fields with a brownish color. */
+.mandatory {
+    color: brown;
+}
+
+/* Bold text on status bar looks awful. */
+QStatusBar QLabel {
+   font: normal;
+}
+
+QStatusBar::item {
+    border-width: 1;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 2;
+}
+
+
+QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView {
+    background-color: rgba(255,240,255,120);
+    selection-color: #0a214c; 
+    selection-background-color: #C19A6B;
+}
+
+
+QListView {
+    show-decoration-selected: 1;
+}
+
+QListView::item:hover {
+    background-color: wheat;
+}
+
+/* We reserve 1 pixel space in padding. When we get the focus,
+   we kill the padding and enlarge the border. This makes the items
+   glow. */
+QLineEdit, QFrame {
+    border-width: 0.5px;
+    padding:0.5px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 2px;
+}
+
+/* As mentioned above, eliminate the padding and increase the border. */
+QLineEdit:focus, QFrame:focus {
+    border-width: 2px;
+    padding: 0px;
+}
+
+/* A QLabel is a QFrame ... */
+QLabel {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+/* A QToolTip is a QLabel ... */
+QToolTip {
+    border: 2px solid darkkhaki;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+/* Nice to have the background color change when hovered. */
+QRadioButton:hover, QCheckBox:hover {
+    background-color: wheat;
+}
+
+/* Force the dialog's buttons to follow the Windows guidelines. */
+QDialogButtonBox {
+    button-layout: 0;
+}
+
+
+/**********Title**********/
+QTitleLabel{
+        background-color: Gainsboro;
+        font: 100 10pt;
+}
+
+
+/**********Button**********/
+QTitleButton{
+        background-color: rgba(255, 255, 255, 0);
+        color: black;
+        border: 0px;
+        font: 100 10pt;
+}
+QTitleButton#MinMaxButton:hover{
+        background-color: #D0D0D1;
+        border: 0px;
+        font: 100 10pt;
+}
+QTitleButton#CloseButton:hover{
+        background-color: #D32424;
+        color: white;
+        border: 0px;
+        font: 100 10pt;
+}
+
+
+QTabBar::tab:selected
+{
+color: #000000;
+background:#87CEEB;
+}
+ 
+QTabBar::tab:!selected
+{
+color: #000000;
+background:palegoldenrod;
+}
+QTabBar::tab:hover
+{
+color: #000000;
+background:#3daee9;
+}
+
+/*Qmenu Style Sheets*/
+ QMenu {
+     background-color: palegoldenrod; /* sets background of the menu ????????????????????white*/
+     border: 1px solid white;/*?????????????????*/
+ }
+  
+ QMenu::item {
+     /* sets background of menu item. set this to something non-transparent
+         if you want menu color and menu item color to be different */
+     background-color: transparent;
+     padding:8px 10px;/*???????????????????????????????????*/
+     margin:0px 0px;/*?????????*/
+     border-bottom:1px solid #DBDBDB;/*????????????*/
+ }
+  
+ QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: #2dabf9;/*??????????????????*/
+ }
+ 

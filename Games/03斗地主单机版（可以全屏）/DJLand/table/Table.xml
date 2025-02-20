@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="200,223">
+  <Container width="200" height="223">
+    <VerticalLayout>
+      <HorizontalLayout name="desk" float="true" pos="20,22,0,0" width="160" height="161" bkimage="Land\table\Normal.png">
+        <Button name="UserFace0" float="true" pos="120,39,0,0" width="32" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" menu="true"/>
+        <Button name="UserFace1" float="true" pos="65,110,0,0" width="32" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" menu="true"/>
+        <Button name="UserFace2" float="true" pos="8,39,0,0" width="32" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" menu="true"/>
+        <Text name="UserName0" text="玩家昵称" float="true" pos="105,9,0,0" width="55" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" textframecolor="#FF625E6D" align="vcenter"/>
+        <Text name="UserName1" text="玩家昵称" float="true" pos="105,119,0,0" width="55" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" textframecolor="#FF625E6D" align="vcenter"/>
+        <Text name="UserName2" text="玩家昵称" float="true" pos="0,9,0,0" width="55" height="24" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" endellipsis="true" textframecolor="#FF625E6D" align="vcenter"/>
+        <Control name="UserReady0" float="true" pos="90,49,0,0" width="16" height="16" bkimage="Land\table\UserReady.png" />
+        <Control name="UserReady1" float="true" pos="72,70,0,0" width="16" height="16" bkimage="Land\table\UserReady.png" />
+        <Control name="UserReady2" float="true" pos="54,49,0,0" width="16" height="16" bkimage="Land\table\UserReady.png" />
+      </HorizontalLayout>
+      <HorizontalLayout float="true" pos="0,189,0,0" width="200" height="12">
+        <Control />
+        <Control name="GoldIngot" />
+        <Control />
+      </HorizontalLayout>
+      <HorizontalLayout float="true" pos="0,201,0,0" width="200" height="22">
+        <Control />
+        <Control name="Locker" width="22"  bkimage="Land\table\Locker.png" />
+        <Control width="5" />
+        <Label name="TableNumber" text="999" width="45"  bkimage="Land\table\TableNumberBack.png" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Control width="5" />
+        <Label name="TableLevel" text="999"width="64" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Control />
+      </HorizontalLayout>
+    </VerticalLayout>
+  </Container>
+</Window>

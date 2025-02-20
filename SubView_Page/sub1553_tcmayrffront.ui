@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sub1553_tcmayrffront</class>
+ <widget class="QWidget" name="sub1553_tcmayrffront">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>717</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>GroupBox2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="title">
+         <string>通道、本振控制选择 C74</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QFormLayout" name="formLayout_6">
+           <item row="0" column="0">
+            <widget class="QLabel" name="lLabel_2">
+             <property name="text">
+              <string>L频段通道1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_1">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="sXKu12Label_3">
+             <property name="text">
+              <string>L频段通道2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_2">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="editable">
+              <bool>false</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="sXKu34Label_3">
+             <property name="text">
+              <string>L频段通道3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_3">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="sXKu56Label_3">
+             <property name="text">
+              <string>L频段通道4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_4">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="sXKu12Label_4">
+             <property name="text">
+              <string>L频段通道5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_5">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="sXKu34Label_4">
+             <property name="text">
+              <string>L频段通道6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_6">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="sXKu56Label_4">
+             <property name="text">
+              <string>SXKu频段通道1,2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="cB_SXKu_channel_12">
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="Label_2">
+             <property name="text">
+              <string>SXKu频段通道3,4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="cB_SXKu_channel_34">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="sXKu56Label_5">
+             <property name="text">
+              <string>SXKu频段通道5,6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="cB_SXKu_channel_56">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="Label_broadband_onebook_1">
+             <property name="text">
+              <string>宽带一本振1频率</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="cB_broadband_onebook_1">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="Label__broadband_onebook_2">
+             <property name="text">
+              <string>宽带一本振2频率</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QComboBox" name="cB_broadband_onebook_2">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="Label_highnoise">
+             <property name="text">
+              <string>高相噪本振频率</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QComboBox" name="cB_highnoise_radio">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>高算力1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_channel_control_C74">
+           <property name="text">
+            <string>通道、本振控制选择</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>GroupBox1</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>通道、本振加电控制 C72</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QFormLayout" name="formLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="Label_Lchannel">
+             <property name="text">
+              <string>L频段开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="cB_Lchannel_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="sXKu12Label">
+             <property name="text">
+              <string>SXKu频段1,2接收开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="cB_SXKu_12receive_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="sXKu34Label">
+             <property name="text">
+              <string>SXKu频段3,4接收开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="cB_SXKu_34receive_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="sXKu56Label">
+             <property name="text">
+              <string>SXKu频段5,6接收开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="cB_SXKu_56receive_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="sXKu12Label_2">
+             <property name="text">
+              <string>SXKu频段1,2发射开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="cB_SXKu_12emit_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="sXKu34Label_2">
+             <property name="text">
+              <string>SXKu频段3,4发射开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="cB_SXKu_34emit_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="sXKu56Label_2">
+             <property name="text">
+              <string>SXKu频段5,6发射开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="cB_SXKu_56emit_switch">
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="Label">
+             <property name="text">
+              <string>宽带一本振开关</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="cB_SXKu_broadband_switch">
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="Label_highnoise1">
+             <property name="text">
+              <string>高相噪本振主备:本振1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="cB_highphase_noise_1">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="Label_twobooks1">
+             <property name="text">
+              <string>二本振主备:本振1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QComboBox" name="cB_twoBooks_1">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>高相噪本振主备:本振2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="cB_highphase_noise_2">
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>二本振主备:本振2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QComboBox" name="cB_twoBooks_2">
+             <item>
+              <property name="text">
+               <string>关</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_channel_power_C72">
+           <property name="text">
+            <string>通道、本振加电控制</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_31">
+        <property name="title">
+         <string>中频切换模块设置 C73</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <layout class="QFormLayout" name="formLayout_23">
+           <item row="0" column="1">
+            <widget class="QComboBox" name="cB_zpset">
+             <item>
+              <property name="text">
+               <string>0: L-高算力1,SXKu-高算力2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1: 同时L模式</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2: 同时SXKu模式</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3：SXKu-高算力1,L-高算力2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="Label_3">
+             <property name="text">
+              <string>中频切换模块</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_zpchooseSet_C73">
+           <property name="text">
+            <string>中频切换模块设置</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

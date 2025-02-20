@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sub1553_busclass</class>
+ <widget class="QWidget" name="sub1553_busclass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>940</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="3">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>GroupBox4</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QGroupBox" name="groupBox_25">
+        <property name="title">
+         <string>CAN通道切换0x17</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <item>
+          <widget class="QComboBox" name="cB_0x17_1">
+           <item>
+            <property name="text">
+             <string>A路</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B路</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_0x17">
+           <property name="text">
+            <string>CAN通道切换</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_26">
+        <property name="title">
+         <string>开关记录状态复位0x18</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_27">
+         <item>
+          <widget class="QPushButton" name="pB_0x18">
+           <property name="text">
+            <string>开关记录状态复位</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_22">
+        <property name="title">
+         <string>暂停软件预加载0x19</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_34">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x19_1">
+           <item>
+            <property name="text">
+             <string>高算力1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x19">
+           <property name="text">
+            <string>暂停软件预加载</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_28">
+        <property name="title">
+         <string>清除块内数据0x1A</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_29">
+         <item>
+          <widget class="QPushButton" name="pB_0x1A">
+           <property name="text">
+            <string>清除块内数据</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_31">
+        <property name="title">
+         <string>可重构射频前端自动增益开关0x1B</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_30">
+         <item>
+          <widget class="QComboBox" name="cB_0x1B_1">
+           <item>
+            <property name="text">
+             <string>高算力1关</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力1开</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2关</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2开</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力1和2关</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力1和2开</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_0x1B">
+           <property name="text">
+            <string>可重构射频前端自动增益开关</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_16">
+        <property name="title">
+         <string>管控机SSD分区和目录查询0x1C</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <item>
+          <layout class="QFormLayout" name="formLayout_11">
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_0x1C_1">
+             <item>
+              <property name="text">
+               <string>0：全部</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1：AI分区</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2：5G分区</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3：其它分区</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>分区</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x1C">
+           <property name="text">
+            <string>管控机SSD分区和目录查询</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>任务上下电部署开关0xFD</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QComboBox" name="comboBox_0xFD_1">
+           <item>
+            <property name="text">
+             <string>开启</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>不开启</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_enduptask">
+           <property name="text">
+            <string>任务上下电部署开关</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_21">
+        <property name="title">
+         <string>运行任务列表复位0xFE</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_24">
+         <item>
+          <widget class="QPushButton" name="pB_trans_software">
+           <property name="text">
+            <string>运行任务列表复位</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGroupBox" name="groupBox_29">
+     <property name="title">
+      <string>GroupBox3</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_18">
+      <item>
+       <widget class="QGroupBox" name="groupBox_27">
+        <property name="title">
+         <string>模板清除0x10</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_28">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x10_1">
+           <item>
+            <property name="text">
+             <string>1:区域模板</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>2:运维模板</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4:全部</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x10">
+           <property name="text">
+            <string>模板清除</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_33">
+        <property name="title">
+         <string>光模块参数更新0x11</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_32">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x11_1">
+           <item>
+            <property name="text">
+             <string>高算力1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x11">
+           <property name="text">
+            <string>光模块参数更新</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_8">
+        <property name="title">
+         <string>轨道编号0x12</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <item>
+          <layout class="QFormLayout" name="formLayout_7">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>编号1~2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit_GDbh">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_GDbh">
+           <property name="text">
+            <string>轨道编号</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_11">
+        <property name="title">
+         <string>Mram参数配置区还原0x13</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x13_1">
+           <item>
+            <property name="text">
+             <string>单机主配置</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>单机备配置</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x13">
+           <property name="text">
+            <string>Mram参数配置区还原</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="title">
+         <string>卫星编号0x14</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <layout class="QFormLayout" name="formLayout_8">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>编号</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit_0x14_1">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x14">
+           <property name="text">
+            <string>卫星编号</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_14">
+        <property name="title">
+         <string>千兆网口通信选择0x15</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <item>
+          <widget class="QComboBox" name="cB_0x15_1">
+           <item>
+            <property name="text">
+             <string>A路（对应0x08接口）</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B路（对应0x09接口）</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_0x15">
+           <property name="text">
+            <string>千兆网口通信选择</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_17">
+        <property name="title">
+         <string>综合管控单元三模运维使能 0x16</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_26">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x16_1">
+           <item>
+            <property name="text">
+             <string>关</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>开</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x16">
+           <property name="text">
+            <string>综合管控单元三模运维使能</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_19">
+     <property name="title">
+      <string>GroupBox1</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_20">
+      <item>
+       <widget class="QGroupBox" name="groupBox_1">
+        <property name="title">
+         <string>管控机关机准备0x01</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QComboBox" name="cB_shutdown">
+           <item>
+            <property name="text">
+             <string>保留</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_shutdown">
+           <property name="text">
+            <string>管控机关机准备</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>下控单机关机装备0x02</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QComboBox" name="comboBox_xkdj">
+           <item>
+            <property name="text">
+             <string>保留</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_downcontrl">
+           <property name="text">
+            <string>下控单机关机准备</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_10">
+        <property name="title">
+         <string>综合管控单元SSD清空0x03</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>分区</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox_ssdclear">
+             <item>
+              <property name="text">
+               <string>0：全部</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1：AI分区</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2：5G分区</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3：其它分区</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_ssdclear">
+           <property name="text">
+            <string>综合管控单元SSD清空</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="title">
+         <string>Flash格式化0x04</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_21">
+         <item>
+          <layout class="QFormLayout" name="formLayout_4">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>单机标志</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="cB_flash_format">
+             <item>
+              <property name="text">
+               <string>高算力平台1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>高算力平台2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_flashformat">
+           <property name="text">
+            <string>Flash格式化</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="title">
+         <string>管控软件-V2看门狗控制0x05</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QFormLayout" name="formLayout_5">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>控制选择</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="cB_watchdog_control">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <item>
+              <property name="text">
+               <string>关闭</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>开启</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_watchdog_control">
+           <property name="text">
+            <string>看门狗控制</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="title">
+         <string>管控软件加载选择0x06</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QComboBox" name="cB_software_load_choose">
+           <item>
+            <property name="text">
+             <string>0x00：管控软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x01：管控软件-更新区A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x02：管控软件-更新区B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x03：管控软件-更新区C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x04：管控v7软件-更新区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x05：管控v7软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x06：/</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x07：/</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x08：综合处理DSP_A软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x09：综合处理DSP_A软件-更新区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0A：综合处理DSP_B软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0B：综合处理DSP_B软件-更新区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0C：综合处理DSP_C软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0D：综合处理DSP_C软件-更新区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0E：综合处理AI软件-基础区</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>0x0F：综合处理AI软件-更新区</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_software_load">
+           <property name="text">
+            <string>管控软件加载选择</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_23">
+        <property name="title">
+         <string>管控模块复位0x09</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <item>
+          <widget class="QPushButton" name="pushButton_task">
+           <property name="text">
+            <string>管控模块复位</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_30">
+        <property name="title">
+         <string>管控广播、日志数据下传0x0A</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_31">
+         <item>
+          <layout class="QFormLayout" name="formLayout_9">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>状态</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_0x0A_1">
+             <item>
+              <property name="text">
+               <string>平台存储</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>SSD存储</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x0A_down">
+           <property name="text">
+            <string>管控广播、日志数据下传</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_20">
+     <property name="title">
+      <string>GroupBox2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_25">
+      <item>
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="title">
+         <string>OC电源控制0x07</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QComboBox" name="cB_OCpower_control"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_OCpower_control">
+           <property name="text">
+            <string>OC电源控制</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_18">
+        <property name="title">
+         <string>Can电源控制0x08</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <widget class="QComboBox" name="cB_Can_powercontrol"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_Can_powercontrol">
+           <property name="text">
+            <string>Can电源控制</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_15">
+        <property name="title">
+         <string>接口v7三模运维 0x0B</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x0B_1">
+           <item>
+            <property name="text">
+             <string>高算力1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x0B">
+           <property name="text">
+            <string>接口v7三模运维</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>CAN解析及重构软件切换更新区0x0C</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QComboBox" name="cB_0x0C_1">
+           <item>
+            <property name="text">
+             <string>高算力1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高算力2</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_0x0C">
+           <property name="text">
+            <string>软件切换更新区</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="title">
+         <string>管控三模运维周期设置 0x0D</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QFormLayout" name="formLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>时间(单位小时)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit_0x0D1">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x0D">
+           <property name="text">
+            <string>管控三模运维周期设置 </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_24">
+        <property name="title">
+         <string>管控V7刷新使能 0x0E</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QComboBox" name="cB_0x0E_1">
+           <item>
+            <property name="text">
+             <string>关</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>开</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pB_0x0E">
+           <property name="text">
+            <string>管控V7刷新使能</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_32">
+        <property name="title">
+         <string>区域/常规任务选择 0x0F</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_33">
+         <item>
+          <widget class="QComboBox" name="comboBox_0x0F_1">
+           <item>
+            <property name="text">
+             <string>常规任务</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>区域任务</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_0x0F">
+           <property name="text">
+            <string>区域/常规任务选择</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

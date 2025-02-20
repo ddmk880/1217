@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="592,420" caption="0,0,0,420" sizebox="0,0,0,0" roundcorner="14,14">
+  <Container>
+    <VerticalLayout name="Frame_back" bkimage="Test\wnd\bk.png">
+      <HorizontalLayout height="28" padding="5,0,0,0">
+        <VerticalLayout  padding="0,5,0,0">
+          <Label name="title" padding="65,0,0,0" height="19" textcolor="#FFFFFFFF" textframecolor="#FF625E6D" disabledtextcolor="#FFA7A6AA" />
+        </VerticalLayout>
+        <VerticalLayout width="49" >
+          <HorizontalLayout>
+            <Button name="close_bt" tooltip="关闭窗口" maxwidth="47" maxheight="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='Test\wnd\close.png' source='0,0,47,24'" hotimage="file='Test\wnd\close.png' source='0,48,47,72'" pushedimage="file='Test\wnd\close.png' source='0,24,47,48'" />
+          </HorizontalLayout>
+        </VerticalLayout>
+      </HorizontalLayout>
+      <HorizontalLayout height="100" padding="3,0,3,3">
+        <ActiveX name="web1" bkcolor="#FF1E1E1E" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false" />
+      </HorizontalLayout>
+      <HorizontalLayout padding="3,0,3,3">
+      </HorizontalLayout>
+      <HorizontalLayout height="100" padding="3,0,3,3">
+        <ActiveX name="web2" bkcolor="#FF1E1E1E" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false" />
+      </HorizontalLayout>
+    </VerticalLayout>
+  </Container>
+</Window>

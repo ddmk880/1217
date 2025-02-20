@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Pic/1downarrow.png</file>
+        <file>Pic/1leftarrow.png</file>
+        <file>Pic/1rightarrow.png</file>
+        <file>Pic/1uparrow.png</file>
+        <file>Pic/3leftarrow.png</file>
+        <file>Pic/3rightarrow.png</file>
+        <file>Pic/ap2.jpg</file>
+        <file>Pic/aq1.jpg</file>
+        <file>Pic/demo_3.png</file>
+        <file>Pic/face-sad.png</file>
+        <file>Pic/face-smile.png</file>
+        <file>Pic/face-smile-big.png</file>
+        <file>Pic/xc.gif</file>
+        <file>Pic/yyh_3.gif</file>
+        <file>Pic/yyh_4.gif</file>
+        <file>Pic/yyh_5.gif</file>
+        <file>Pic/yyh_6.gif</file>
+        <file>Pic/yyh_7.gif</file>
+        <file>Pic/yyh_9.gif</file>
+        <file>Pic/yyh_10.gif</file>
+        <file>Pic/yyh_12.gif</file>
+        <file>Pic/yyh_13.gif</file>
+        <file>Pic/yyh_14.gif</file>
+        <file>Pic/yyh_15.gif</file>
+        <file>Pic/yyh_16.gif</file>
+        <file>Pic/yyh_17.gif</file>
+        <file>Pic/yyh_18.gif</file>
+        <file>Pic/yyh_19.gif</file>
+        <file>Pic/yyh_0.gif</file>
+        <file>Pic/yyh_1.gif</file>
+        <file>Pic/yyh_2.gif</file>
+        <file>Pic/yyh_8.gif</file>
+    </qresource>
+</RCC>
