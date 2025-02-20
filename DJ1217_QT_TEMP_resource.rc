@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	DISCARDABLE	"C:\\Users\\YYH\\Desktop\\1217QT_PRO_0220\\myApex.ico"
+IDI_ICON1	ICON	DISCARDABLE	"C:\\Users\\YYH\\Desktop\\1217QT_PRO_Git0220\\myApex.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0

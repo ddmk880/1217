@@ -65,7 +65,7 @@ Translate::Translate(QWidget *parent) :
     //    cursorPosition.movePosition(QTextCursor::Left,QTextCursor::MoveAnchor,4);
     //    textform.setForeground(Qt::darkYellow);
     //    cursorPosition.insertText("ZZZZZZ",textform);
-    //只读，可以复制
+    //只读，可以复制 的
     Modeview1->setReadOnly(true);
     Modeview2->setReadOnly(true);
     Modeview3->setReadOnly(true);
